@@ -9,10 +9,15 @@ import {
 } from "react-bootstrap";
 import DropdownMenu from "react-bootstrap/esm/DropdownMenu";
 import DropdownToggle from "react-bootstrap/esm/DropdownToggle";
+import { CartState } from "../context/Context";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Header = () => {
+  const {
+    state: { cart },
+  } = CartState();
+
   return (
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>

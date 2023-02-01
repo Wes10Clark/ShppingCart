@@ -4,7 +4,7 @@
 
 .productContainer {
   display: flex;
-  width: 78%;
+  width: 80%;
   padding: 20px;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -16,7 +16,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 20%;
   margin: 10px;
   height: 86vh;
 }
@@ -27,4 +27,9 @@
 
 .title {
   font-size: 30px;
+}
+
+.products {
+  width: 30%;
+  margin: 10px;
 }
